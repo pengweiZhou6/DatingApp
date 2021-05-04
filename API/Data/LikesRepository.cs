@@ -47,7 +47,7 @@ namespace API.Data
                 Age = user.DateOfBirth.CalculateAge(),
                 PhotoUrl = user.Photos.FirstOrDefault(p => p.IsMain).Url,
                 City = user.City,
-                Id = user.ID
+                Id = user.Id
             });
 
             return await PagedList<LikeDto>.CreateAsync(likedUsers, 
@@ -58,7 +58,7 @@ namespace API.Data
         {
             return await _context.Users
                 .Include(x => x.LikedUsers)
-                .FirstOrDefaultAsync(x => x.ID == userId);
+                .FirstOrDefaultAsync(x => x.Id == userId);
         }
     }
 } 
