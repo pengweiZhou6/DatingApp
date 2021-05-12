@@ -73,3 +73,5 @@ C:\Users\pengw\WebstormProjects\DatingApp\API\bin\Debug\net5.0\Microsoft.AspNetC
 C:\Users\pengw\WebstormProjects\DatingApp\API\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\pengw\WebstormProjects\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\pengw\WebstormProjects\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\pengw\WebstormProjects\DatingApp\API\bin\Debug\net5.0\Npgsql.dll
+C:\Users\pengw\WebstormProjects\DatingApp\API\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
